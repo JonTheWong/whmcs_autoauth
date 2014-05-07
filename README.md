@@ -18,7 +18,7 @@ Then add this value to the top of your email template (i recommend the invoicecr
 and then add this link anywhere in your template based on your style of choice.
 {$whmcs_url}/eauth.php?email={$client_email}&invoice={$invoice_num}&hash={$hash|md5}
 if you would like to place the link inside of a WORD in your template i'd recommend doing.
-<code><a href="yourdomain.com/eauth.php?email={$client_email}&invoice={$invoice_num}&hash={$hash|md5}">AUTO INVOICE LOGIN</a></code>
+```<a href="yourdomain.com/eauth.php?email={$client_email}&invoice={$invoice_num}&hash={$hash|md5}">AUTO INVOICE LOGIN</a>```
 
 Additional information according to WHMCS documentation.
 "The timestamp must be within 15 minutes of the server time for the autoauth to be accepted, otherwise the link is considered to be expired"
