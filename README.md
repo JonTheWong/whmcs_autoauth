@@ -1,4 +1,4 @@
-AutoAuth Invoice Auto Login v1
+AutoAuth Invoice Auto Login v1<br />
 By<br />
 Zenith Media Canada<br />
 www.zenithmedia.ca<br />
