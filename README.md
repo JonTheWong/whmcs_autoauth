@@ -1,7 +1,7 @@
 AutoAuth Invoice Auto Login v1<br />
 By<br />
 Zenith Media Canada<br />
-www.zenithmedia.ca<br />
+<a href="http://www.zenithmedia.ca">www.zenithmedia.ca</a><br />
 
 This script is intended to allow your automatic invoice emails from whmcs to include login information.<br />
 This will allow your clients to click on a link in your email and automaticly access the lastest invoice.<br />
