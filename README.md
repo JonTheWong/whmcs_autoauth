@@ -1,14 +1,14 @@
 AutoAuth Invoice Auto Login v1
 
-This script is intended to allow your automatic invoice emails from whmcs to include login information.
-This will allow your clients to click on a link in your email and automaticly access the lastest invoice.
-Script was created with help from http://docs.whmcs.com/AutoAuth & Serg from http://www.whmcsjet.com/autologin-link-in-whmcs-email/ also from the comments of McGuyver http://maxserver.om.br/
+This script is intended to allow your automatic invoice emails from whmcs to include login information.<br />
+This will allow your clients to click on a link in your email and automaticly access the lastest invoice.<br />
+Script was created with help from http://docs.whmcs.com/AutoAuth & Serg from <br />http://www.whmcsjet.com/autologin-link-in-whmcs-email/ also from the comments of McGuyver http://maxserver.om.br/
 
 
-Zenith Media Canada
-www.zenithmedia.ca
+Zenith Media Canada<br />
+www.zenithmedia.ca<br />
 
-This script was tested on 5.3.6 General Release (5.3.6-release.1)
+This script was tested on 5.3.6 General Release (5.3.6-release.1)<br />
 
 To install this script you need to place this file in your root directory of whmcs<br />
 then generate a fresh hash5 and enter it in configuration.php in the root of your whmcs directory.<br />
