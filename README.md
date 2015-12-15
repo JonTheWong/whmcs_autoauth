@@ -22,4 +22,6 @@ if you would like to place the link inside of a WORD in your template i'd recomm
 Additional information according to WHMCS documentation.<br />
 "The timestamp must be within 15 minutes of the server time for the autoauth to be accepted, otherwise the link is considered to be expired"<br />
 
-Based on my testing the links have no expire.. its a new hash per client.. will check security concerns.
+Based on my testing the links have no expire.. its a new hash per client.. will check security concerns.<br />
+
+Confirmed working with WHMCS version <b>6.1.1</b>
