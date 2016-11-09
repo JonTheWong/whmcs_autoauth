@@ -25,7 +25,7 @@ Additional information according to WHMCS documentation.<br />
 Based on my testing the links have no expire.. its a new hash per client.. will check security concerns.<br />
 
 Confirmed working with WHMCS version <b>6.1.1</b><br />
-Confirmed working with WHMCS version <b>6.2.0</b>
+Confirmed working with WHMCS version <b>6.2.0</b><br />
 Confirmed working with WHMCS version <b>7.0.1</b>
 
 * quick not for version 7 *
