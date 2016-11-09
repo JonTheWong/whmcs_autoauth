@@ -26,3 +26,15 @@ Based on my testing the links have no expire.. its a new hash per client.. will 
 
 Confirmed working with WHMCS version <b>6.1.1</b><br />
 Confirmed working with WHMCS version <b>6.2.0</b>
+Confirmed working with WHMCS version <b>7.0.1</b>
+
+* quick not for version 7 *
+Due to security settings, you have to modify configuration.php and add the following code
+
+$smarty_security_policy = array(<br />
+    'mail' => array(<br/>
+        'php_modifiers' => array(<br />
+            'md5',<br />
+        ),<br />
+    ),<br />
+);<br />
