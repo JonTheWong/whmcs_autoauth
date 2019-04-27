@@ -36,7 +36,7 @@ You can generate a hash using; `openssl rand -hex 32` on linux.
 
 Then add this value to the top of your email template;
 
-`{assign var='hash' value=$client_email|cat:"REPLACE-THIS-PART-WITH-SECRETE-KEY"}`
+`{assign var='hash' value=$client_email|cat:"REPLACE-THIS-PART-WITH-SECRET-KEY"}`
 
 Then add this link anywhere in your email template.
 
