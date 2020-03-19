@@ -1,9 +1,9 @@
-# WHMCS Auto Auth
+# WHMCS Auto Authentication
 ## By JonTheWong from Zenith Media Canada
-[www.zenithmedia.ca](https://www.zenithmedia.ca/?utm_source=github&utm_medium=code&utm_campaign=code)
+[zenithmedia.ca](https://zenithmedia.ca/?utm_source=github&utm_medium=code&utm_campaign=code)
 
 ### Intro
-This script was made to allow end users of WHMCS to login to their accounts automaticlly.
+This script was made to allow end users of WHMCS to login to their accounts automatically.
 You would add the provided code into your email templates and create a temporary link for your clients to access their invoices, quotes and general login.
 
 Script was created with the help of [Serg](http://www.whmcsjet.com/autologin-link-in-whmcs-email/) & [McGuyver](http://maxserver.com.br) and the great documentation of [WHMCS - AutoAuth](http://docs.whmcs.com/AutoAuth) & [WHMCS - Security Policy](https://docs.whmcs.com/Smarty_Security_Policy)
@@ -18,6 +18,7 @@ We have tested this script with the following versions.
 * **7.5.2** - Confirmed by [thomashoeky](https://github.com/thomashoeky)
 * **7.6** - Confirmed by [thomashoeky](https://github.com/thomashoeky)
 * **7.7.1-release.1** - Confirmed by [thomashoeky](https://github.com/thomashoeky) & [JonTheWong](https://github.com/JonTheWong)
+* **7.9.1-release.1** - Confirmed
 
 
 ## Installation
@@ -48,7 +49,7 @@ Quote Auth:
 `{$whmcs_url}qauth.php?email={$client_email}&quote={$quote_number}&zmkey={$zmkey|md5}`
 
 ## Notes
-**Quick not for version 7+**
+**Quick note for version 7+**
 
 Due to security settings, you have to modify configuration.php and add the following code to the bottom, above the last **?>**
 
@@ -61,7 +62,6 @@ $smarty_security_policy = array(
             'sha1',
             'urlencode',
             'header',
-
         ),
     ),
 );
@@ -75,8 +75,8 @@ Additional information according to WHMCS documentation.
 
 Based on my testing the links do no expire.
 
-Based on the above code, when we make a request using the l/e/qauth.php links it redirects to the $url and that generates a new timestamp + hash. But this does not expire?
-How can it expire if the hash is based on a timestamp, changing it everytime.
+Based on the above code, when we make a request using the l/i/qauth.php links it redirects to the $url and that generates a new timestamp + hash. But this does not expire?
+How can it expire if the hash is based on a timestamp, changing it every time.
 
 The initial email+secretkey hash is constant.. include timestamp in that generation?
 
