@@ -43,7 +43,7 @@ Then add this link anywhere in your email template.
 
 Login Auth: `{$whmcs_url}lauth.php?email={$client_email}&zmkey={$hash|md5}`
 
-Invoice Auth: `{$whmcs_url}iauth.php?email={$client_email}&invoice={$invoice_num}&zmkey={$hash|md5}`
+Invoice Auth: `{$whmcs_url}iauth.php?email={$client_email}&invoice={$invoice_id}&zmkey={$hash|md5}`
 
 Quote Auth:
 `{$whmcs_url}qauth.php?email={$client_email}&quote={$quote_number}&zmkey={$zmkey|md5}`
