@@ -27,12 +27,6 @@ To install this script you need to place all files in your root directory of WHM
 
 `example: /home/user/public_html/domain/whmcs/`
 
-Generate a hash and enter it in configuration.php above the last **?>**
-
-`$autoauthkey = "REPLACE-WITH-SYSTEM-KEY";`
-
-Also include it into the script.
-
 You can generate a hash using; `openssl rand -hex 32` on linux.
 
 Then add this value to the top of your email template;
